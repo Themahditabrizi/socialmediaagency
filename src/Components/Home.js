@@ -6,7 +6,7 @@ import { FiArrowRight } from "react-icons/fi";
 
 const Home = () => {
   return (
-    <div className="home-container">
+    <div id="section1" className="home-container">
       <Navbar />
       <div className="home-banner-container">
         <div className="home-bannerImage-container">
@@ -18,9 +18,9 @@ const Home = () => {
           <p className="primary-text">
           Boost your brand's social media presence with Us. Create, manage, and analyze campaigns with powerful tools. Try it now!
           </p>
-          <button className="secondary-button">
+          <a href="#section4" className="secondary-button">
             Contact Us <FiArrowRight />{" "}
-          </button>
+          </a>
         </div>
         <div className="home-image-section">
           <img src={BannerImage} alt="" />

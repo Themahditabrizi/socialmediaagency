@@ -44,12 +44,12 @@ const Navbar = () => {
         <img src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Testimonials</a>
+        <a href="#section1">Home</a>
+        <a href="#section2">About</a>
+        <a href="#section3">Testimonials</a>
        
         
-        <button className="primary-button">Contact us</button>
+        <a href="#section4" className="primary-button">Contact us</a>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
